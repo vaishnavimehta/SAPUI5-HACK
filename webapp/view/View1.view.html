@@ -1,0 +1,20 @@
+<template data-controller-name="saom.com.samplemap.shwetang28.controller.View1">
+    <div data-sap-ui-type="sap.m.App">
+        <div data-sap-ui-type="sap.m.Page" data-title="{i18n>title}">
+            <div data-sap-ui-aggregation="content" id="script-editor">
+                <form>
+                    <div id="front-div">
+                        <strong>Start:</strong> <input id="origin"><br>
+                        <strong>End:</strong> <input id="destination">
+                        <button onClick="initMap">
+                            Click Me
+                        </button>
+                    </div>
+                </form>
+                <div id="left-div"></div>
+                <div id="map" style="width:20cm; height:20cm; margin-left:5cm"></div>
+                        <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWAb0Dr2cDdOicUsKYqBGMcscdV79Nutg&v=3&callback=saom.com.samplemap.shwetang28.controller.View1.init()" onerror="errorAlert()"></script>-->
+            </div>
+        </div>
+    </div>
+</template>
