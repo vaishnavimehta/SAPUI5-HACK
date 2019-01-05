@@ -18,6 +18,14 @@
         "entryPath": "/test-resources"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/com.sap.iotservices.mms/v1/",
+      "target": {
+        "type": "destination",
+        "name": "iot-internet-http"
+      },
+      "description": "SAP HANA cloud platform IoT Service API"
     }
   ],
   "sendWelcomeFileRedirect": true

@@ -2,18 +2,16 @@
     <div data-sap-ui-type="sap.m.App">
         <div data-sap-ui-type="sap.m.Page" data-title="{i18n>title}">
             <div data-sap-ui-aggregation="content" id="script-editor">
-                <form>
-                    <div id="front-div">
-                        <strong>Start:</strong> <input id="origin"><br>
-                        <strong>End:</strong> <input id="destination">
-                        <button onClick="initMap">
-                            Click Me
-                        </button>
-                    </div>
-                </form>
-                <div id="left-div"></div>
+                <div >
+                    <strong>Current Address:</strong> <input id="origin" readonly style="border: none;" autofocus=0><br>
+                    <strong>Destination Address:</strong> <input id="destination" disabled ><br>
+                    <strong>ETA:</strong> <input id="eta" editable="false"><br>
+                    <strong>Distance:</strong> <input id="distance" editable="false"><br>
+                    <strong>TS:</strong> <input id="TS" editable="false"><br>
+                    <strong>lat:</strong> <input id="lat" editable="false"><br>
+                    <strong>long:</strong> <input id="long" editable="false"><br>
+                </div>
                 <div id="map" style="width:20cm; height:20cm; margin-left:5cm"></div>
-                        <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWAb0Dr2cDdOicUsKYqBGMcscdV79Nutg&v=3&callback=saom.com.samplemap.shwetang28.controller.View1.init()" onerror="errorAlert()"></script>-->
             </div>
         </div>
     </div>
