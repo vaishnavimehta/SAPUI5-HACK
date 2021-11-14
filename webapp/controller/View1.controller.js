@@ -18,7 +18,7 @@ sap.ui.define([
 				type: "GET",
 				//async: false,
 				//crossDomain: true,
-				url: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyBqLJCbB5j5gHPJ06OTTMAfm0KstbzDT34',
+				url: 'https://maps.googleapis.com/maps/api/js?key=????',
 				dataType: "jsonp",
 				success: function (data, status, jqXHR) { //success function works when above connection is successfull.
 					//alert("connection successful");
